@@ -1,8 +1,9 @@
 body{
   margin:0px;
+  font-family: 'Poppins', sans-serif;
     
 }
-.section{
+section{
 height: 500px;
 padding-bottom: 150px;
 }
@@ -11,20 +12,21 @@ padding-bottom: 150px;
   background-repeat: no-repeat;
 }
 .header{
-  background-image: url(Image/undraw_Code_thinking_re_gka2.png);
+  background-image: url("Image/Header.png");
   background-position: center;
   background-repeat: no-repeat;
+  margin-bottom: 100px;
   
 
 }
 
-.header h1{
-    text-align: center;
-    font-weight: bold;
+ h1{
+    
     font-size: 50px;
-    font-family: 'Otomanopee One', sans-serif;
+    
 
 }
+
 .half-width{
   width: 40%;
   float: left;
@@ -38,19 +40,21 @@ h1 span{
 .half-width img{
   width: 100;
 }
+/*
 .profileImg{
     float: right;
     animation-delay: inherit;
     display: -ms-flexbox;
     aspect-ratio: auto 604 / 600;
+    */
 }
-.acnchor-buttion{
+.anchor-button{
   text-decoration: none;
   background: linear-gradient(45deg, lightsalmon,tomato);
   padding:10px 40px;
   border-radius:5px;
   color: white;
-  font-weight: 700px;
+  font-weight: 700;
 
 
 }
@@ -94,5 +98,5 @@ h2{
 footer{
 
   text-align: center;
-  
+
 }
