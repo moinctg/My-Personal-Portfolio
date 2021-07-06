@@ -47,7 +47,7 @@ h1 span{
     display: -ms-flexbox;
     aspect-ratio: auto 604 / 600;
     */
-}
+
 .anchor-button{
   text-decoration: none;
   background: linear-gradient(45deg, lightsalmon,tomato);
@@ -55,8 +55,6 @@ h1 span{
   border-radius:5px;
   color: white;
   font-weight: 700;
-
-
 }
 p{
   color: dimgray;
